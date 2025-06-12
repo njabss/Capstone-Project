@@ -1,0 +1,468 @@
+#head{
+    color: hsl(240, 27%, 96%);
+    font-size: 24px;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+h3{
+    color: hsl(0, 0%, 1%);
+    font-family:'Times New Roman';
+    font-weight: bold;
+    text-align: center;
+}
+#CulHead{
+    color: hsl(0, 0%, 1%);
+    font-family:'Times New Roman';
+    font-weight: bold;
+    text-align: center; 
+    border: 2px solid hsl(0, 0%, 1%);
+    padding: 10px;
+}
+#flag{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+   
+}
+#flag:hover{
+    transform: rotate(360deg);
+    transition: transform 2s;
+}
+#uflag{
+    font-size: 20px;
+    color: hsl(0, 0%, 3%);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+}
+#Welcome{
+    font-family: 'Franklin Gothic Medium';
+    font-weight: bold;
+    font-size: 20px;
+    color: hsl(240, 31%, 13%);
+    text-align: center;
+    margin-top: 20px;
+    animation: both 3s ease-in-out infinite;
+    animation-name: jump;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+footer{
+    color: hsl(240, 27%, 96%);
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.background{
+    background-image: url('../Images/Ouagadougou-travel-54.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;}
+.navigation{
+    background-color: lch(22.66% 2.34 19.77);
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    list-style: underline;
+}
+.navigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation li{
+    float: left;
+}
+.navigation a{
+    display: block;
+    color: hsl(224, 35%, 94%);
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.navigation a:hover{
+    background-color: hsl(0, 44%, 85%);
+    color: black;
+}
+#page1{
+    background:linear-gradient(to right, hsla(116, 50%, 37%, 0.966), hsla(0, 81%, 48%, 0.966));
+    padding: 20px;
+    margin: 20px;   
+   
+}
+#Container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+#images{
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#images2{
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#images3{
+    animation-name: fadeIn;
+    animation-duration: 4s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#images4{
+    animation-name: fadeIn;
+    animation-duration: 6s;
+    animation-delay: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#images5{
+    animation-name: fadeIn;
+    animation-duration: 8s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+@keyframes jump {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+.FlexiContainerHistory{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.FlexiContainerHome{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.FlexiContainerAbout{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+.FlexiContainerCultures{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: none;
+    margin: 0;
+    
+}
+.FlexiContainerForm{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flexi{
+    flex: 1;
+    border-radius: 5px;
+    align-items: center;
+    
+}
+#FlexiItem1{
+    background-color: hsla(116, 33%, 91%, 0.966);
+    margin: 15px;
+    padding: 10px;
+    
+    
+}
+#FlexiItem2{
+    background-color: hsla(116, 33%, 91%, 0.966);
+    margin: 15px;
+    padding: 10px;
+}
+#FlexiItem3{
+    background-color: hsla(116, 33%, 91%, 0.966);
+    margin: 15px;
+    padding: 10px;
+}
+#FlexiItem4{
+    background-color: khaki;
+    margin: 15px;
+    padding: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th, td{
+    border: black solid 1px;
+    padding: 10px;
+    text-align: center;
+}
+#FlexiItem5{
+    background-color: hsla(116, 33%, 91%, 0.966);
+    margin: 15px;
+    padding: 10px;
+    list-style: symbols(disc);
+}
+#FlexiItem6{
+    background-color: hsla(116, 33%, 91%, 0.966);
+    margin: 15px;
+    padding: 10px;
+   
+}
+
+#FlexiItem7{
+    background-color: hsla(116, 33%, 91%, 0.966);
+    margin: 15px;
+    padding: 10px;
+}
+#FlexiItem8{
+    background-color: hsla(116, 33%, 91%, 0.966);
+    margin: 15px;
+    padding: 10px;
+}
+#FlexiItem9{
+    background-color: hsla(116, 33%, 91%, 0.966);
+    margin: 15px;
+    padding: 10px;
+}
+#FlexiItemC{
+    background-color: hsla(116, 33%, 91%, 0.966);
+    margin: 15px;
+    padding: 10px;
+}
+#FlexiItemF1{
+    background-color: hsla(116, 33%, 91%, 0.966);
+    margin: 15px;
+    padding: 10px;
+}
+#FlexiItemF{
+    background-color: hsla(116, 33%, 91%, 0.966);
+    margin: 15px;
+    padding: 10px;
+    align-items: center;
+}
+legend{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: hsl(240, 31%, 13%);
+    text-align: center;
+    margin-top: 20px;
+}
+form{
+    background-color: hsl(18, 19%, 89%);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+input, textarea{
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid hsl(240, 31%, 13%);
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+button{
+    background-color: hsl(240, 31%, 13%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+button:hover{
+    background-color: hsl(240, 31%, 20%)hsl(18, 19%, 89%);
+    color: hsl(240, 31%, 13%);
+    transition: background-color 0.3s ease; 
+
+}
+@media (max-width: 600px) {
+    #Container, .FlexiContainerHistory, .FlexiContainerHome, .FlexiContainerAbout, .FlexiContainerCultures, .FlexiContainerForm {
+        flex-direction: column;
+        align-items: center;
+    }
+    input, textarea {
+        width: 90%;
+    }
+    button {
+        width: 90%;
+    }
+    #flag {
+        width: 80px;
+        height: 80px;
+    }
+    #head {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+
+    #uflag {
+        font-size: 16px;
+    }
+    #Welcome {
+        font-size: 18px;
+    }
+    footer {
+        font-size: 12px;
+    }
+    .navigation a {
+        font-size: 16px;
+        padding: 10px;
+    }
+    #CulHead {
+        font-size: 18px;
+        padding: 8px;
+    }
+    #page1 {
+        padding: 10px;
+        margin: 10px;
+    }
+    #images, #images2, #images3, #images4, #images5 {
+        width: 90%;
+        margin: 10px auto;
+    }
+    #images img, #images2 img, #images3 img, #images4 img, #images5 img {
+        width: 100%;
+        height: auto;
+    }
+    table {
+        font-size: 14px;
+    }
+    th, td {
+        padding: 8px;
+    }
+    #flag:hover {
+        transform: rotate(180deg);
+        transition: transform 1s;
+    }
+    #FlexiItem1, #FlexiItem2, #FlexiItem3, #FlexiItem4, #FlexiItem5, #FlexiItem6, #FlexiItem7, #FlexiItem8, #FlexiItem9, #FlexiItemC, #FlexiItemF1, #FlexiItemF {
+        width: 90%;
+        margin: 10px auto;
+    }
+    #FlexiItem1, #FlexiItem2, #FlexiItem3, #FlexiItem4, #FlexiItem5, #FlexiItem6, #FlexiItem7, #FlexiItem8, #FlexiItem9, #FlexiItemC, #FlexiItemF1, #FlexiItemF {
+        padding: 15px;
+        font-size: 16px;
+    }
+    legend {
+        font-size: 18px;
+    }
+    form {
+        width: 95%;
+        padding: 15px;
+    }
+    input, textarea {
+        width: 100%;
+        font-size: 16px;
+    }
+    button {
+        width: 100%;
+        font-size: 16px;
+    }
+    .navigation {
+        font-size: 16px;
+    }
+    .navigation a {
+        padding: 10px;
+    }
+    #head, h3, #uflag, #Welcome {
+        font-size: 16px;
+    }
+    footer {
+        font-size: 12px;
+    }
+    #CulHead {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    #flag {
+        width: 60px;
+        height: 60px;
+    }
+    #flag:hover {
+        transform: rotate(180deg);
+        transition: transform 1s;
+    }
+    #page1 {
+        padding: 10px;
+        margin: 10px;
+    }
+    #images, #images2, #images3, #images4, #images5 {
+        width: 90%;
+        margin: 10px auto;
+    }
+    #images img, #images2 img, #images3 img, #images4 img, #images5 img {
+        width: 100%;
+        height: auto;
+    }
+    table {
+        font-size: 14px;
+    }
+    th, td {
+        padding: 8px;
+    }
+    #FlexiItem1, #FlexiItem2, #FlexiItem3, #FlexiItem4, #FlexiItem5, #FlexiItem6, #FlexiItem7, #FlexiItem8, #FlexiItem9, #FlexiItemC, #FlexiItemF1, #FlexiItemF {
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+}       
+
+
+
+

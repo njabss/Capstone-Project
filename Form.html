@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Burkina Faso</title>
+        <link rel="stylesheet" href="Styles/stylessheet.css">
+    </head>
+
+    <body>
+        <div  id=page1>
+            <h1 span id = head>Burkina Faso</h1>
+
+            <nav class="navigation">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Cultures.html">Cultures</a></li>
+                    <li><a href="History.html">History</a></li>
+                    <li><a href="Form.html">Enquiry</a></li>
+                </ul>
+            </nav>
+            <section class="FlexiContainerForm">
+                <article class="flexi" id="FlexiItemF1">
+                    <h2>Enquiry Form</h2>
+                    <p>Please fill out the form below to lodge a query about any part of this great nation's history.</p>
+                    <p>All fields are required.</p>
+                </article>
+
+                <article class="flexi" id="FlexiItemF">
+                    <h3>Contact Form</h3>
+                    <p>For any queries, please fill out the form below. Your information will be sent to the email address provided.</p>
+            <form action="mailto:s227023323@mandela.ac.za">
+                
+                    <fieldset>
+                        <legend>Enquiry Form</legend>
+                         <label for="name">Name:</label><br><br>
+                        <input type="text" id="name" name="name" required><br><br>
+                        <label for="surname">Surname:</label><br><br>
+                        <input type="text" id="surname" name="surname" required><br><br>
+                        <label for="phone">Phone Number:</label><br><br>
+                        <input type="tel" id="phone" name="phone" required minlength="10" maxlength="10"><br><br>
+                        <label for="country">Country of Residence:</label><br><br>
+                        <input type="text" id="country" name="country" required><br><br>    
+                        <label for="email">Email:</label><br><br>
+                        <input type="email" id="email" name="email" required><br><br>                    
+                        <label for="purpose">Part of intrest:</label>
+                        <select id="intrest" name="intrest" required>
+                            <option value="tourism">History</option>
+                            <option value="business">Culture</option>
+                            <option value="education">Traditions</option>
+                            <option value="other">Religion</option>
+                        </select><br><br>
+                        <label for="comments">Comments:</label><br><br>
+                        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+                        <button id="EnSubmit" value="Submit">Submit</button><br><br>
+                        <button id="EnReset"type="reset" value="Reset">Reset</button>
+            </form>  
+
+         </fieldset>
+      
+          </article>
+      </section>
+
+        </div>
+          <footer> Njabulo Magadu @ 227023323</footer>
+      <script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="Java/JavaS.js"></script>
+    
+    </body>
+</html>
